@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+data/raw/
+data/generated/*.npz
+ml_runs/
+hardware/*/out/
+webapp/node_modules/
+webapp/dist/
+.DS_Store

@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "penumbra"
+version = "0.1.0"
+description = "PENUMBRA — passive multistatic RF sensing mesh for urban counter-UAS: physics, simulation, DSP, ML, tracking, C2."
+requires-python = ">=3.11"
+dependencies = ["numpy", "scipy", "pyyaml"]
+
+[project.optional-dependencies]
+ml = ["torch"]
+hardware = ["manifold3d", "trimesh", "numpy-stl"]
+dev = ["pytest", "matplotlib"]
+
+[tool.setuptools.packages.find]
+include = ["penumbra*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
