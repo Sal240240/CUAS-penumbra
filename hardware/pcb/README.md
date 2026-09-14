@@ -1,19 +1,30 @@
-# RF/timing carrier board — schematic-level design package
+# RF/timing carrier board — electrical design + mechanical CAD
 
-**What this is:** a complete electrical design — every net, every component
-reference, and a placement floorplan — expressed as plain documentation
-(`netlist.csv`, `placement.md`) rather than native KiCad project files.
+**What this is:**
 
-**Why not native KiCad files:** the development environment this package was
-produced in does not have KiCad installed, so a `.kicad_sch`/`.kicad_pcb` file
-written here could not be opened or DRC-checked before delivery. Handing over
-an unverified binary-ish project file and calling it "the schematic" would be
-worse than handing over a checked, plain-text equivalent — per RT-10 in
+1. **The electrical design** — every net and every component reference
+   (`netlist.csv`), plus the placement floorplan and the reasoning behind it
+   (`placement.md`).
+2. **The mechanical CAD** — `python generate_board.py` emits
+   `out/node_carrier.kicad_pcb` (a real, openable KiCad board) and
+   `out/node_carrier_outline.dxf`. The board carries the profile on Edge.Cuts,
+   the four M3 mounting holes on the same pattern as the enclosure's corner
+   bosses, the RF shield-can keepouts and functional-zone courtyards from
+   `placement.md`, and the full net list embedded. The generator re-parses what
+   it wrote as a structural check, since KiCad itself is not available here to
+   run a real DRC.
+
+**What the board file deliberately does not contain: component footprints.**
+A `.kicad_pcb` embeds full footprint geometry rather than referencing a library,
+so emitting footprints would mean authoring land patterns for an AD9363, a Zynq
+SoM, a ZED-F9T and an OCXO without the manufacturer drawings to check them
+against. A board that looks finished but has wrong land patterns is a worse
+deliverable than an honestly mechanical-only one — per RT-10/RT-14 in
 [`docs/10_red_team_ledger.md`](../../docs/10_red_team_ledger.md), overclaiming
 readiness on an RF board is exactly the mistake that costs credibility at the
-first supplier call. A PCB engineer can transcribe `netlist.csv` into KiCad
-(or Altium/Eagle) directly; every net and reference designator needed to do
-that is here.
+first supplier call. What an engineer gets here is a correct board profile,
+correct mounting, the intended floorplan, and the netlist — then places real
+library footprints into it.
 
 **What is NOT done here, and needs a licensed PCB/RF engineer:**
 
@@ -32,6 +43,10 @@ that is here.
   it, and a one-line electrical note (power, RF, digital, or ground/shield)
 - `placement.md` — a floorplan: which zone of the board each functional block
   occupies and why (RF isolation, thermal, connector access)
+- `generate_board.py` — emits the KiCad board and DXF outline into `out/`
 - Component references match `hardware/bom/node_bom.csv` exactly (U1-U6,
   FLT1-3) — the BOM is the same one used for the enclosure/cost estimate,
   not a separate list that could drift.
+- The dimensioned drawing sheet for the board profile is
+  `hardware/drawings/out/PNMB-PCB-001_board_profile.svg`, generated from the
+  same constants as the board file.

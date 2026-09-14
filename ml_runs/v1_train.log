@@ -1,0 +1,33 @@
+data: train (960, 42, 48, 96) val (240, 42, 48, 96) pairs 42 (151s)
+model params: 0.51 M
+epoch 00 loss 4.104 (occ 2.977 cls 1.149 unc -0.218)  340s
+epoch 01 loss 3.754 (occ 2.895 cls 0.925 unc -0.656)  523s
+epoch 02 loss 3.587 (occ 2.885 cls 0.836 unc -1.333)  701s
+epoch 03 loss 3.513 (occ 2.917 cls 0.783 unc -1.868)  876s
+epoch 04 loss 1.894 (occ 1.627 cls 0.521 unc -2.540)  1051s
+epoch 05 loss 1.090 (occ 0.916 cls 0.454 unc -2.803)  1241s
+epoch 06 loss 0.819 (occ 0.693 cls 0.419 unc -2.938)  1431s
+epoch 07 loss 0.638 (occ 0.562 cls 0.386 unc -3.107)  1620s
+epoch 08 loss 0.431 (occ 0.403 cls 0.357 unc -3.286)  1812s
+epoch 09 loss 0.320 (occ 0.325 cls 0.339 unc -3.443)  2007s
+epoch 10 loss 0.154 (occ 0.194 cls 0.317 unc -3.572)  2196s
+epoch 11 loss 0.040 (occ 0.116 cls 0.295 unc -3.707)  2387s
+epoch 12 loss -0.042 (occ 0.060 cls 0.279 unc -3.811)  2576s
+epoch 13 loss -0.063 (occ 0.047 cls 0.273 unc -3.835)  2759s
+{
+  "precision": 0.9774011299435028,
+  "recall": 0.8737373737373737,
+  "f1": 0.9226666666666666,
+  "tp": 346,
+  "fp": 8,
+  "fn": 50,
+  "fa_per_frame": 0.05,
+  "class_acc": 0.708092485549133,
+  "pos_rmse_m": 20.07458790906725,
+  "n_frames": 160,
+  "threshold": 0.28653101420402527,
+  "params": 514063,
+  "train_frames": 640,
+  "pairs": 42,
+  "fa_budget_per_frame": 0.05
+}

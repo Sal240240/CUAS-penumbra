@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" width="1000" height="700">
+<rect width="1000" height="700" fill="#ffffff"/>
+<rect x="10" y="10" width="980" height="680" fill="none" stroke="#101418" stroke-width="2"/>
+<text x="70.00" y="56.00" font-family="monospace" font-size="12" fill="#101418" text-anchor="start" font-weight="bold">BASE - TOP VIEW</text>
+<rect x="70.00" y="70.00" width="379.60" height="249.60" fill="none" stroke="#101418" stroke-width="1.6"/>
+<rect x="77.80" y="77.80" width="364.00" height="234.00" fill="none" stroke="#6b7a82" stroke-width="1.2" stroke-dasharray="5 3"/>
+<circle cx="98.60" cy="98.60" r="10.40" fill="none" stroke="#101418" stroke-width="1.2"/>
+<circle cx="98.60" cy="98.60" r="4.16" fill="none" stroke="#101418" stroke-width="1.0"/>
+<line x1="85.20" y1="98.60" x2="112.00" y2="98.60" stroke="#6b7a82" stroke-width="0.8" stroke-dasharray="4 2"/>
+<line x1="98.60" y1="85.20" x2="98.60" y2="112.00" stroke="#6b7a82" stroke-width="0.8" stroke-dasharray="4 2"/>
+<circle cx="421.00" cy="98.60" r="10.40" fill="none" stroke="#101418" stroke-width="1.2"/>
+<circle cx="421.00" cy="98.60" r="4.16" fill="none" stroke="#101418" stroke-width="1.0"/>
+<line x1="407.60" y1="98.60" x2="434.40" y2="98.60" stroke="#6b7a82" stroke-width="0.8" stroke-dasharray="4 2"/>
+<line x1="421.00" y1="85.20" x2="421.00" y2="112.00" stroke="#6b7a82" stroke-width="0.8" stroke-dasharray="4 2"/>
+<circle cx="98.60" cy="291.00" r="10.40" fill="none" stroke="#101418" stroke-width="1.2"/>
+<circle cx="98.60" cy="291.00" r="4.16" fill="none" stroke="#101418" stroke-width="1.0"/>
+<line x1="85.20" y1="291.00" x2="112.00" y2="291.00" stroke="#6b7a82" stroke-width="0.8" stroke-dasharray="4 2"/>
+<line x1="98.60" y1="277.60" x2="98.60" y2="304.40" stroke="#6b7a82" stroke-width="0.8" stroke-dasharray="4 2"/>
+<circle cx="421.00" cy="291.00" r="10.40" fill="none" stroke="#101418" stroke-width="1.2"/>
+<circle cx="421.00" cy="291.00" r="4.16" fill="none" stroke="#101418" stroke-width="1.0"/>
+<line x1="407.60" y1="291.00" x2="434.40" y2="291.00" stroke="#6b7a82" stroke-width="0.8" stroke-dasharray="4 2"/>
+<line x1="421.00" y1="277.60" x2="421.00" y2="304.40" stroke="#6b7a82" stroke-width="0.8" stroke-dasharray="4 2"/>
+<line x1="70.00" y1="319.60" x2="70.00" y2="339.60" stroke="#6b7a82" stroke-width="0.8"/>
+<line x1="449.60" y1="319.60" x2="449.60" y2="339.60" stroke="#6b7a82" stroke-width="0.8"/>
+<line x1="70.00" y1="335.60" x2="449.60" y2="335.60" stroke="#1a6b7a" stroke-width="1.0"/>
+<path d="M 70.00 335.60 l 6.00 -2.6 l 0 5.2 z" fill="#1a6b7a"/>
+<path d="M 449.60 335.60 l -6.00 -2.6 l 0 5.2 z" fill="#1a6b7a"/>
+<text x="259.80" y="331.60" font-family="monospace" font-size="11" fill="#1a6b7a" text-anchor="middle" font-weight="normal">146</text>
+<line x1="449.60" y1="70.00" x2="469.60" y2="70.00" stroke="#6b7a82" stroke-width="0.8"/>
+<line x1="449.60" y1="319.60" x2="469.60" y2="319.60" stroke="#6b7a82" stroke-width="0.8"/>
+<line x1="465.60" y1="70.00" x2="465.60" y2="319.60" stroke="#1a6b7a" stroke-width="1.0"/>
+<path d="M 465.60 70.00 l -2.6 6.00 l 5.2 0 z" fill="#1a6b7a"/>
+<path d="M 465.60 319.60 l -2.6 -6.00 l 5.2 0 z" fill="#1a6b7a"/>
+<text x="475.60" y="194.80" font-family="monospace" font-size="11" fill="#1a6b7a" text-anchor="middle" transform="rotate(-90 475.60 194.80)">96</text>
+<line x1="77.80" y1="319.60" x2="77.80" y2="363.60" stroke="#6b7a82" stroke-width="0.8"/>
+<line x1="441.80" y1="319.60" x2="441.80" y2="363.60" stroke="#6b7a82" stroke-width="0.8"/>
+<line x1="77.80" y1="359.60" x2="441.80" y2="359.60" stroke="#1a6b7a" stroke-width="1.0"/>
+<path d="M 77.80 359.60 l 6.00 -2.6 l 0 5.2 z" fill="#1a6b7a"/>
+<path d="M 441.80 359.60 l -6.00 -2.6 l 0 5.2 z" fill="#1a6b7a"/>
+<text x="259.80" y="355.60" font-family="monospace" font-size="11" fill="#1a6b7a" text-anchor="middle" font-weight="normal">140 CAVITY</text>
+<line x1="98.60" y1="98.60" x2="90.00" y2="36.00" stroke="#6b7a82" stroke-width="0.8"/>
+<text x="93.00" y="33.00" font-family="monospace" font-size="10" fill="#1a6b7a" text-anchor="start" font-weight="normal">4x M3 BOSS, 3.2 DIA PILOT</text>
+<text x="70.00" y="395.60" font-family="monospace" font-size="12" fill="#101418" text-anchor="start" font-weight="bold">BASE - FRONT VIEW (GLAND END)</text>
+<rect x="70.00" y="409.60" width="379.60" height="124.80" fill="none" stroke="#101418" stroke-width="1.6"/>
+<rect x="77.80" y="409.60" width="364.00" height="117.00" fill="none" stroke="#6b7a82" stroke-width="1.2" stroke-dasharray="5 3"/>
+<circle cx="81.70" cy="472.00" r="13.00" fill="none" stroke="#101418" stroke-width="1.2"/>
+<line x1="65.70" y1="472.00" x2="97.70" y2="472.00" stroke="#6b7a82" stroke-width="0.8" stroke-dasharray="4 2"/>
+<line x1="81.70" y1="456.00" x2="81.70" y2="488.00" stroke="#6b7a82" stroke-width="0.8" stroke-dasharray="4 2"/>
+<line x1="449.60" y1="409.60" x2="469.60" y2="409.60" stroke="#6b7a82" stroke-width="0.8"/>
+<line x1="449.60" y1="534.40" x2="469.60" y2="534.40" stroke="#6b7a82" stroke-width="0.8"/>
+<line x1="465.60" y1="409.60" x2="465.60" y2="534.40" stroke="#1a6b7a" stroke-width="1.0"/>
+<path d="M 465.60 409.60 l -2.6 6.00 l 5.2 0 z" fill="#1a6b7a"/>
+<path d="M 465.60 534.40 l -2.6 -6.00 l 5.2 0 z" fill="#1a6b7a"/>
+<text x="475.60" y="472.00" font-family="monospace" font-size="11" fill="#1a6b7a" text-anchor="middle" transform="rotate(-90 475.60 472.00)">48</text>
+<line x1="81.70" y1="472.00" x2="111.70" y2="560.40" stroke="#6b7a82" stroke-width="0.8"/>
+<text x="114.70" y="557.40" font-family="monospace" font-size="10" fill="#1a6b7a" text-anchor="start" font-weight="normal">10 DIA GLAND BORE</text>
+<text x="599.60" y="56.00" font-family="monospace" font-size="12" fill="#101418" text-anchor="start" font-weight="bold">LID - TOP VIEW</text>
+<rect x="599.60" y="70.00" width="379.60" height="249.60" fill="none" stroke="#101418" stroke-width="1.6"/>
+<circle cx="628.20" cy="98.60" r="4.16" fill="none" stroke="#101418" stroke-width="1.2"/>
+<line x1="621.04" y1="98.60" x2="635.36" y2="98.60" stroke="#6b7a82" stroke-width="0.8" stroke-dasharray="4 2"/>
+<line x1="628.20" y1="91.44" x2="628.20" y2="105.76" stroke="#6b7a82" stroke-width="0.8" stroke-dasharray="4 2"/>
+<circle cx="950.60" cy="98.60" r="4.16" fill="none" stroke="#101418" stroke-width="1.2"/>
+<line x1="943.44" y1="98.60" x2="957.76" y2="98.60" stroke="#6b7a82" stroke-width="0.8" stroke-dasharray="4 2"/>
+<line x1="950.60" y1="91.44" x2="950.60" y2="105.76" stroke="#6b7a82" stroke-width="0.8" stroke-dasharray="4 2"/>
+<circle cx="628.20" cy="291.00" r="4.16" fill="none" stroke="#101418" stroke-width="1.2"/>
+<line x1="621.04" y1="291.00" x2="635.36" y2="291.00" stroke="#6b7a82" stroke-width="0.8" stroke-dasharray="4 2"/>
+<line x1="628.20" y1="283.84" x2="628.20" y2="298.16" stroke="#6b7a82" stroke-width="0.8" stroke-dasharray="4 2"/>
+<circle cx="950.60" cy="291.00" r="4.16" fill="none" stroke="#101418" stroke-width="1.2"/>
+<line x1="943.44" y1="291.00" x2="957.76" y2="291.00" stroke="#6b7a82" stroke-width="0.8" stroke-dasharray="4 2"/>
+<line x1="950.60" y1="283.84" x2="950.60" y2="298.16" stroke="#6b7a82" stroke-width="0.8" stroke-dasharray="4 2"/>
+<text x="599.60" y="395.60" font-family="monospace" font-size="12" fill="#101418" text-anchor="start" font-weight="bold">LID - FRONT VIEW</text>
+<rect x="599.60" y="409.60" width="379.60" height="31.20" fill="none" stroke="#101418" stroke-width="1.6"/>
+<rect x="608.18" y="422.08" width="362.44" height="18.72" fill="none" stroke="#6b7a82" stroke-width="1.2" stroke-dasharray="5 3"/>
+<line x1="979.20" y1="409.60" x2="999.20" y2="409.60" stroke="#6b7a82" stroke-width="0.8"/>
+<line x1="979.20" y1="440.80" x2="999.20" y2="440.80" stroke="#6b7a82" stroke-width="0.8"/>
+<line x1="995.20" y1="409.60" x2="995.20" y2="440.80" stroke="#1a6b7a" stroke-width="1.0"/>
+<path d="M 995.20 409.60 l -2.6 6.00 l 5.2 0 z" fill="#1a6b7a"/>
+<path d="M 995.20 440.80 l -2.6 -6.00 l 5.2 0 z" fill="#1a6b7a"/>
+<text x="1005.20" y="425.20" font-family="monospace" font-size="11" fill="#1a6b7a" text-anchor="middle" transform="rotate(-90 1005.20 425.20)">12</text>
+<line x1="789.40" y1="440.80" x2="789.40" y2="474.80" stroke="#6b7a82" stroke-width="0.8"/>
+<text x="792.40" y="471.80" font-family="monospace" font-size="10" fill="#1a6b7a" text-anchor="start" font-weight="normal">SKIRT ENGAGES BASE RIM</text>
+<text x="28" y="490" font-family="monospace" font-size="11" font-weight="bold" fill="#101418">NOTES</text>
+<text x="28" y="506" font-family="monospace" font-size="10" fill="#101418">1. DIMENSIONS IN MILLIMETRES. THIRD-ANGLE PROJECTION.</text>
+<text x="28" y="522" font-family="monospace" font-size="10" fill="#101418">2. GENERAL TOLERANCE +/-0.3 mm UNLESS OTHERWISE STATED.</text>
+<text x="28" y="538" font-family="monospace" font-size="10" fill="#101418">3. BREAK SHARP EDGES 0.3 mm MAX.</text>
+<text x="28" y="554" font-family="monospace" font-size="10" fill="#101418">4. TOLERANCES ON MATING FEATURES TO BE AGREED WITH FABRICATOR.</text>
+<text x="28" y="570" font-family="monospace" font-size="10" fill="#101418">5. GASKET CHANNEL SIZED FOR 3 mm SILICONE CORD.</text>
+<text x="28" y="586" font-family="monospace" font-size="10" fill="#101418">6. CABLE GLAND BORE 10.0 DIA FOR RJ45 CAT6 GLAND.</text>
+<text x="28" y="602" font-family="monospace" font-size="10" fill="#101418">7. PRINT ORIENTATION: CAVITY UP, NO SUPPORTS REQUIRED IN CAVITY.</text>
+<rect x="650" y="590" width="340" height="100" fill="none" stroke="#101418" stroke-width="1.6"/>
+<line x1="650" y1="624" x2="990" y2="624" stroke="#101418" stroke-width="1"/>
+<line x1="650" y1="656" x2="990" y2="656" stroke="#101418" stroke-width="1"/>
+<text x="660" y="612" font-family="monospace" font-size="13" fill="#101418" font-weight="bold">PENUMBRA  /  NODE ENCLOSURE - BASE &amp; LID</text>
+<text x="660" y="644" font-family="monospace" font-size="10" fill="#101418" font-weight="normal">PART PNMB-ENC-001    MATERIAL ASA / ASA-CF</text>
+<text x="660" y="676" font-family="monospace" font-size="10" fill="#101418" font-weight="normal">FINISH AS PRINTED, UV STABLE    UNITS mm    PROJ 3rd ANGLE</text>
+</svg>

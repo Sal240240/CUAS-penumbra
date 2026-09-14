@@ -53,7 +53,7 @@ def conformal_threshold(model, data, idx, n_frames, device, extent, size, fa_per
     with torch.no_grad():
         for s in range(0, len(idx), batch):
             ii = idx[s:s + batch]
-            x = torch.as_tensor(np.stack([data["rd"][i - n_frames + 1:i + 1] for i in ii])).to(device)
+            x = torch.as_tensor(np.stack([data["rd"][i - n_frames + 1:i + 1] for i in ii])).float().to(device)
             heat = torch.sigmoid(model(x)["occ"]).cpu().numpy()
             for j, i in enumerate(ii):
                 pk = peaks_from_heatmap(heat[j], 0.05)

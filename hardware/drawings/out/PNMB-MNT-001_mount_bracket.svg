@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" width="1000" height="700">
+<rect width="1000" height="700" fill="#ffffff"/>
+<rect x="10" y="10" width="980" height="680" fill="none" stroke="#101418" stroke-width="2"/>
+<text x="80.00" y="66.00" font-family="monospace" font-size="12" fill="#101418" text-anchor="start" font-weight="bold">FRONT VIEW (ENCLOSURE FACE)</text>
+<rect x="80.00" y="80.00" width="300.00" height="300.00" fill="none" stroke="#101418" stroke-width="1.6"/>
+<circle cx="123.15" cy="123.15" r="5.10" fill="none" stroke="#101418" stroke-width="1.2"/>
+<line x1="115.05" y1="123.15" x2="131.25" y2="123.15" stroke="#6b7a82" stroke-width="0.8" stroke-dasharray="4 2"/>
+<line x1="123.15" y1="115.05" x2="123.15" y2="131.25" stroke="#6b7a82" stroke-width="0.8" stroke-dasharray="4 2"/>
+<circle cx="336.85" cy="123.15" r="5.10" fill="none" stroke="#101418" stroke-width="1.2"/>
+<line x1="328.75" y1="123.15" x2="344.95" y2="123.15" stroke="#6b7a82" stroke-width="0.8" stroke-dasharray="4 2"/>
+<line x1="336.85" y1="115.05" x2="336.85" y2="131.25" stroke="#6b7a82" stroke-width="0.8" stroke-dasharray="4 2"/>
+<circle cx="123.15" cy="254.66" r="5.10" fill="none" stroke="#101418" stroke-width="1.2"/>
+<line x1="115.05" y1="254.66" x2="131.25" y2="254.66" stroke="#6b7a82" stroke-width="0.8" stroke-dasharray="4 2"/>
+<line x1="123.15" y1="246.56" x2="123.15" y2="262.76" stroke="#6b7a82" stroke-width="0.8" stroke-dasharray="4 2"/>
+<circle cx="336.85" cy="254.66" r="5.10" fill="none" stroke="#101418" stroke-width="1.2"/>
+<line x1="328.75" y1="254.66" x2="344.95" y2="254.66" stroke="#6b7a82" stroke-width="0.8" stroke-dasharray="4 2"/>
+<line x1="336.85" y1="246.56" x2="336.85" y2="262.76" stroke="#6b7a82" stroke-width="0.8" stroke-dasharray="4 2"/>
+<rect x="149.00" y="290.00" width="12.00" height="60.00" fill="none" stroke="#101418" stroke-width="1.2"/>
+<rect x="299.00" y="290.00" width="12.00" height="60.00" fill="none" stroke="#101418" stroke-width="1.2"/>
+<line x1="80.00" y1="380.00" x2="80.00" y2="400.00" stroke="#6b7a82" stroke-width="0.8"/>
+<line x1="380.00" y1="380.00" x2="380.00" y2="400.00" stroke="#6b7a82" stroke-width="0.8"/>
+<line x1="80.00" y1="396.00" x2="380.00" y2="396.00" stroke="#1a6b7a" stroke-width="1.0"/>
+<path d="M 80.00 396.00 l 6.00 -2.6 l 0 5.2 z" fill="#1a6b7a"/>
+<path d="M 380.00 396.00 l -6.00 -2.6 l 0 5.2 z" fill="#1a6b7a"/>
+<text x="230.00" y="392.00" font-family="monospace" font-size="11" fill="#1a6b7a" text-anchor="middle" font-weight="normal">100</text>
+<line x1="380.00" y1="80.00" x2="400.00" y2="80.00" stroke="#6b7a82" stroke-width="0.8"/>
+<line x1="380.00" y1="380.00" x2="400.00" y2="380.00" stroke="#6b7a82" stroke-width="0.8"/>
+<line x1="396.00" y1="80.00" x2="396.00" y2="380.00" stroke="#1a6b7a" stroke-width="1.0"/>
+<path d="M 396.00 80.00 l -2.6 6.00 l 5.2 0 z" fill="#1a6b7a"/>
+<path d="M 396.00 380.00 l -2.6 -6.00 l 5.2 0 z" fill="#1a6b7a"/>
+<text x="406.00" y="230.00" font-family="monospace" font-size="11" fill="#1a6b7a" text-anchor="middle" transform="rotate(-90 406.00 230.00)">100</text>
+<line x1="155.00" y1="314.00" x2="20.00" y2="410.00" stroke="#6b7a82" stroke-width="0.8"/>
+<text x="23.00" y="407.00" font-family="monospace" font-size="10" fill="#1a6b7a" text-anchor="start" font-weight="normal">2x TILT SLOT 4 x 20</text>
+<line x1="110.00" y1="110.00" x2="20.00" y2="70.00" stroke="#6b7a82" stroke-width="0.8"/>
+<text x="23.00" y="67.00" font-family="monospace" font-size="10" fill="#1a6b7a" text-anchor="start" font-weight="normal">4x 3.4 DIA TO ENCLOSURE</text>
+<text x="550.00" y="66.00" font-family="monospace" font-size="12" fill="#101418" text-anchor="start" font-weight="bold">SIDE VIEW (POLE CLAMP)</text>
+<rect x="550.00" y="80.00" width="18.00" height="300.00" fill="none" stroke="#101418" stroke-width="1.6"/>
+<rect x="430.00" y="305.00" width="120.00" height="30.00" fill="none" stroke="#101418" stroke-width="1.6"/>
+<circle cx="484.00" cy="320.00" r="90.00" fill="none" stroke="#6b7a82" stroke-width="1.2" stroke-dasharray="6 4"/>
+<line x1="484.00" y1="320.00" x2="580.00" y2="400.00" stroke="#6b7a82" stroke-width="0.8"/>
+<text x="583.00" y="397.00" font-family="monospace" font-size="10" fill="#1a6b7a" text-anchor="start" font-weight="normal">60 DIA POLE (REF)</text>
+<line x1="430.00" y1="380.00" x2="430.00" y2="400.00" stroke="#6b7a82" stroke-width="0.8"/>
+<line x1="568.00" y1="380.00" x2="568.00" y2="400.00" stroke="#6b7a82" stroke-width="0.8"/>
+<line x1="430.00" y1="396.00" x2="568.00" y2="396.00" stroke="#1a6b7a" stroke-width="1.0"/>
+<path d="M 430.00 396.00 l 6.00 -2.6 l 0 5.2 z" fill="#1a6b7a"/>
+<path d="M 568.00 396.00 l -6.00 -2.6 l 0 5.2 z" fill="#1a6b7a"/>
+<text x="499.00" y="392.00" font-family="monospace" font-size="11" fill="#1a6b7a" text-anchor="middle" font-weight="normal">46</text>
+<text x="28" y="490" font-family="monospace" font-size="11" font-weight="bold" fill="#101418">NOTES</text>
+<text x="28" y="506" font-family="monospace" font-size="10" fill="#101418">1. DIMENSIONS IN MILLIMETRES. THIRD-ANGLE PROJECTION.</text>
+<text x="28" y="522" font-family="monospace" font-size="10" fill="#101418">2. GENERAL TOLERANCE +/-0.3 mm UNLESS OTHERWISE STATED.</text>
+<text x="28" y="538" font-family="monospace" font-size="10" fill="#101418">3. BREAK SHARP EDGES 0.3 mm MAX.</text>
+<text x="28" y="554" font-family="monospace" font-size="10" fill="#101418">4. TOLERANCES ON MATING FEATURES TO BE AGREED WITH FABRICATOR.</text>
+<text x="28" y="570" font-family="monospace" font-size="10" fill="#101418">5. SUITS 60 mm NOM. POLE; RE-RUN GENERATOR FOR OTHER DIAMETERS.</text>
+<text x="28" y="586" font-family="monospace" font-size="10" fill="#101418">6. WIND / VIBRATION LOAD RATING NOT ESTABLISHED - SEE hardware/README.md.</text>
+<text x="28" y="602" font-family="monospace" font-size="10" fill="#101418">7. TILT SLOTS PERMIT APPROX +/-15 DEG ADJUSTMENT.</text>
+<rect x="650" y="590" width="340" height="100" fill="none" stroke="#101418" stroke-width="1.6"/>
+<line x1="650" y1="624" x2="990" y2="624" stroke="#101418" stroke-width="1"/>
+<line x1="650" y1="656" x2="990" y2="656" stroke="#101418" stroke-width="1"/>
+<text x="660" y="612" font-family="monospace" font-size="13" fill="#101418" font-weight="bold">PENUMBRA  /  POLE / PARAPET MOUNT BRACKET</text>
+<text x="660" y="644" font-family="monospace" font-size="10" fill="#101418" font-weight="normal">PART PNMB-MNT-001    MATERIAL 316 STAINLESS, 6 mm</text>
+<text x="660" y="676" font-family="monospace" font-size="10" fill="#101418" font-weight="normal">FINISH DEBURR, PASSIVATE    UNITS mm    PROJ 3rd ANGLE</text>
+</svg>

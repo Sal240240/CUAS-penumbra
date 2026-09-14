@@ -5,9 +5,9 @@
 | `antennas/` | LPDA (UHF, cellular) and patch-array (Wi-Fi) generators — real design equations, CSV build sheets, SVG drawings | Yes — geometry is fully scripted (see each script's docstring for the design reference) |
 | `mech/` | Enclosure (base+lid) and pole/parapet mount bracket generators — parametric, watertight STL | Yes — run the script, print or CNC the STL |
 | `interceptor/` | Talon airframe generator (roadmap item, RT-09) | Yes, as geometry — the vehicle itself is not a Sandbox 2027 deliverable |
-| `pcb/` | RF/timing carrier board: full netlist + placement floorplan | Schematic-level only — routing/DRC needs a licensed PCB/RF engineer, see `pcb/README.md` |
+| `pcb/` | RF/timing carrier board: netlist, placement floorplan, and a KiCad board + DXF carrying the profile, mounting, keepouts and nets | Mechanically yes; electrically no — footprints and routing need a licensed PCB/RF engineer, see `pcb/README.md` |
 | `bom/` | Per-node bill of materials, CAD 1,765.00/node, sourcing and supply-chain notes | N/A (documentation) |
-| `drawings/` | Node assembly overview tying the above together | N/A (documentation) |
+| `drawings/` | Dimensioned drawing sheets (enclosure, bracket, board profile) plus the node assembly overview | Yes — third-angle drawing sheets with title blocks, generated from the same constants as the solids |
 
 ## Regenerating everything
 
@@ -20,12 +20,19 @@ python hardware/antennas/patch_array.py
 python hardware/mech/enclosure.py
 python hardware/mech/mount_bracket.py
 python hardware/interceptor/airframe.py
+python hardware/pcb/generate_board.py
+python hardware/drawings/generate_drawings.py
 ```
 
-Each writes into its own `out/` directory (git-ignored — regenerate rather
-than diff binary STL files) and prints a one-line summary of what it built,
-including anything it deliberately did **not** compute (feed-point tuning,
-structural load ratings, DRC) so that gap is never silent.
+Each writes into its own `out/` directory and prints a one-line summary of what
+it built, including anything it deliberately did **not** compute (feed-point
+tuning, structural load ratings, DRC) so that gap is never silent.
+
+The generated outputs are committed, not git-ignored: the whole set is under
+250 kB, and a reviewer or fabricator should be able to open a drawing, a board
+profile, or an STL without setting up a Python environment first. CI re-runs
+every generator on each push and checks the meshes are still watertight and the
+drawings still parse as XML.
 
 ## The honesty line this hardware package holds
 

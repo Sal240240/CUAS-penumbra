@@ -11,7 +11,7 @@ dependencies = ["numpy", "scipy", "pyyaml"]
 
 [project.optional-dependencies]
 ml = ["torch"]
-hardware = ["manifold3d", "trimesh", "numpy-stl"]
+hardware = ["manifold3d", "trimesh", "numpy-stl", "kiutils"]
 dev = ["pytest", "matplotlib"]
 
 [tool.setuptools.packages.find]

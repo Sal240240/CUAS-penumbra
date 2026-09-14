@@ -4,8 +4,18 @@ __pycache__/
 .pytest_cache/
 data/raw/
 data/generated/*.npz
-ml_runs/
-hardware/*/out/
+
+# Training artifacts: checkpoints and episode caches are large and regenerable.
+# metrics.json and train.log (or *_train.log) are the reviewable record and are kept.
+ml_runs/*
+!ml_runs/*/
+!ml_runs/*.log
+ml_runs/*/*.pt
+ml_runs/*/*.npz
+
+# Generated fabrication outputs ARE committed: they are small (<250 kB total)
+# and a reviewer or fabricator should not need a Python environment to open a
+# drawing, a board profile, or an STL. Regenerate with the scripts in hardware/.
 webapp/node_modules/
 webapp/dist/
 .DS_Store
