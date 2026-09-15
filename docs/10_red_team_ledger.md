@@ -208,3 +208,29 @@ downloads and checksums it automatically. DIAT-uSAT and DroneDetect are both IEE
 datasets gated behind a subscription, a free-account login, or (for DIAT-uSAT) an emailed
 educational-access request — none of that is a URL a script can fetch, so the script documents
 the manual steps instead of pretending otherwise.
+
+## RT-16 — First real training run: best-checkpoint selection matters
+
+**Chosen:** train PenumbraNet on the synthetic simulator data end-to-end (previously only a
+2-epoch smoke test existed), with the new `--resume` and validation-gated best-checkpoint
+logic in `penumbra/ml/train.py` (this run resumed twice: v2 epochs 0-9, then v3 epochs 0-9
+continuing from v2's best weights).
+
+**Result:** validation F1 peaked at epoch 1 of the v3 run (F1 0.783, precision 0.968, recall
+0.657, false-alarm rate 0.047/frame — within the 0.05 budget) and did not exceed that peak
+in the following 8 epochs, even though training loss kept falling the whole time (1.11 to
+-0.20). Class accuracy (drone vs. bird vs. vehicle, given a detection) is a weaker 0.54 —
+three-way classification is harder than detection, and 0.51 M parameters plus one modest
+synthetic dataset is not enough data to fix that yet.
+
+**Why this is the finding, not a bug:** falling loss with flat-to-declining F1 after epoch 1
+is the model overfitting to the focal/evidential loss terms rather than continuing to improve
+at the metric that matters. Keeping only the best-F1 checkpoint (not the last epoch) is what
+makes that visible instead of silently shipping a worse model that happened to train longer.
+The honest conclusion is that more epochs on this dataset size do not currently help — WP6
+real urban background data and/or a larger synthetic dataset are the next lever, not more
+epochs on the same 64 episodes.
+
+**Attack:** is 0.51 M params simply too small? **Response:** unresolved — the model size was
+chosen for Jetson Orin Nano inference budget, not tuned against this result. A capacity sweep
+belongs in WP7 (detection algorithms benchmark), not asserted here.

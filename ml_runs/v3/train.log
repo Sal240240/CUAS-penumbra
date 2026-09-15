@@ -2,3 +2,52 @@ data: train (240, 42, 48, 96) (93 MB) val (96, 42, 48, 96) pairs 42 (62s)
 resumed weights from ml_runs/v2/penumbra_net_best.pt
 model params: 0.51 M
 steps/epoch: 20 (batch 8, 160 windows)
+  ep 00 step 8/20  3.10s/step  eta_epoch 0.6 min
+  ep 00 step 16/20  2.70s/step  eta_epoch 0.2 min
+epoch 00 loss 1.109 (occ 0.987 cls 0.388 unc -2.652)  120s
+  ep 01 step 8/20  2.66s/step  eta_epoch 0.5 min
+  ep 01 step 16/20  2.65s/step  eta_epoch 0.2 min
+epoch 01 loss 0.713 (occ 0.655 cls 0.347 unc -2.887) | val F1 0.783 P 0.968 R 0.657  <- best  184s
+  ep 02 step 8/20  2.80s/step  eta_epoch 0.6 min
+  ep 02 step 16/20  2.94s/step  eta_epoch 0.2 min
+epoch 02 loss 0.555 (occ 0.509 cls 0.350 unc -3.044)  243s
+  ep 03 step 8/20  2.48s/step  eta_epoch 0.5 min
+  ep 03 step 16/20  2.53s/step  eta_epoch 0.2 min
+epoch 03 loss 0.528 (occ 0.495 cls 0.348 unc -3.147) | val F1 0.605 P 0.954 R 0.443  314s
+  ep 04 step 8/20  2.56s/step  eta_epoch 0.5 min
+  ep 04 step 16/20  2.51s/step  eta_epoch 0.2 min
+epoch 04 loss 0.165 (occ 0.196 cls 0.310 unc -3.413)  363s
+  ep 05 step 8/20  2.18s/step  eta_epoch 0.4 min
+  ep 05 step 16/20  2.15s/step  eta_epoch 0.1 min
+epoch 05 loss 0.021 (occ 0.114 cls 0.273 unc -3.666) | val F1 0.706 P 0.963 R 0.557  416s
+  ep 06 step 8/20  2.44s/step  eta_epoch 0.5 min
+  ep 06 step 16/20  2.39s/step  eta_epoch 0.2 min
+epoch 06 loss -0.095 (occ 0.054 cls 0.240 unc -3.890)  463s
+  ep 07 step 8/20  2.71s/step  eta_epoch 0.5 min
+  ep 07 step 16/20  2.88s/step  eta_epoch 0.2 min
+epoch 07 loss -0.164 (occ 0.024 cls 0.216 unc -4.045) | val F1 0.632 P 0.957 R 0.471  536s
+  ep 08 step 8/20  2.68s/step  eta_epoch 0.5 min
+  ep 08 step 16/20  2.69s/step  eta_epoch 0.2 min
+epoch 08 loss -0.189 (occ 0.021 cls 0.205 unc -4.153)  591s
+  ep 09 step 8/20  3.07s/step  eta_epoch 0.6 min
+  ep 09 step 16/20  2.86s/step  eta_epoch 0.2 min
+epoch 09 loss -0.202 (occ 0.014 cls 0.202 unc -4.177) | val F1 0.676 P 0.961 R 0.521  664s
+evaluating best checkpoint (epoch 1, val F1 0.783)
+{
+  "precision": 0.968421052631579,
+  "recall": 0.6571428571428571,
+  "f1": 0.7829787234042553,
+  "tp": 92,
+  "fp": 3,
+  "fn": 48,
+  "fa_per_frame": 0.046875,
+  "class_acc": 0.5434782608695652,
+  "pos_rmse_m": 21.32695244574564,
+  "n_frames": 64,
+  "best_epoch": 1,
+  "threshold": 0.3344960639476776,
+  "params": 514063,
+  "train_frames": 160,
+  "pairs": 42,
+  "fa_budget_per_frame": 0.05
+}
