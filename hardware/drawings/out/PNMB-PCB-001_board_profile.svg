@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" width="1000" height="700">
+<rect width="1000" height="700" fill="#ffffff"/>
+<rect x="10" y="10" width="980" height="680" fill="none" stroke="#101418" stroke-width="2"/>
+<text x="80.00" y="66.00" font-family="monospace" font-size="12" fill="#101418" text-anchor="start" font-weight="bold">BOARD OUTLINE - TOP VIEW</text>
+<rect x="80.00" y="80.00" width="700.00" height="450.00" fill="none" stroke="#101418" stroke-width="1.6"/>
+<circle cx="120.00" cy="120.00" r="8.00" fill="none" stroke="#101418" stroke-width="1.4"/>
+<line x1="109.00" y1="120.00" x2="131.00" y2="120.00" stroke="#6b7a82" stroke-width="0.8" stroke-dasharray="4 2"/>
+<line x1="120.00" y1="109.00" x2="120.00" y2="131.00" stroke="#6b7a82" stroke-width="0.8" stroke-dasharray="4 2"/>
+<circle cx="740.00" cy="120.00" r="8.00" fill="none" stroke="#101418" stroke-width="1.4"/>
+<line x1="729.00" y1="120.00" x2="751.00" y2="120.00" stroke="#6b7a82" stroke-width="0.8" stroke-dasharray="4 2"/>
+<line x1="740.00" y1="109.00" x2="740.00" y2="131.00" stroke="#6b7a82" stroke-width="0.8" stroke-dasharray="4 2"/>
+<circle cx="120.00" cy="490.00" r="8.00" fill="none" stroke="#101418" stroke-width="1.4"/>
+<line x1="109.00" y1="490.00" x2="131.00" y2="490.00" stroke="#6b7a82" stroke-width="0.8" stroke-dasharray="4 2"/>
+<line x1="120.00" y1="479.00" x2="120.00" y2="501.00" stroke="#6b7a82" stroke-width="0.8" stroke-dasharray="4 2"/>
+<circle cx="740.00" cy="490.00" r="8.00" fill="none" stroke="#101418" stroke-width="1.4"/>
+<line x1="729.00" y1="490.00" x2="751.00" y2="490.00" stroke="#6b7a82" stroke-width="0.8" stroke-dasharray="4 2"/>
+<line x1="740.00" y1="479.00" x2="740.00" y2="501.00" stroke="#6b7a82" stroke-width="0.8" stroke-dasharray="4 2"/>
+<rect x="110.00" y="100.00" width="270.00" height="90.00" fill="none" stroke="#6b7a82" stroke-width="1.0" stroke-dasharray="4 3"/>
+<text x="113.00" y="112.00" font-family="monospace" font-size="8" fill="#6b7a82" text-anchor="start" font-weight="normal">RF-EDGE-UHF</text>
+<rect x="470.00" y="100.00" width="280.00" height="90.00" fill="none" stroke="#6b7a82" stroke-width="1.0" stroke-dasharray="4 3"/>
+<text x="473.00" y="112.00" font-family="monospace" font-size="8" fill="#6b7a82" text-anchor="start" font-weight="normal">RF-EDGE-CELL</text>
+<rect x="280.00" y="220.00" width="300.00" height="110.00" fill="none" stroke="#6b7a82" stroke-width="1.0" stroke-dasharray="4 3"/>
+<text x="283.00" y="232.00" font-family="monospace" font-size="8" fill="#6b7a82" text-anchor="start" font-weight="normal">U1-AD9363</text>
+<rect x="110.00" y="350.00" width="200.00" height="120.00" fill="none" stroke="#6b7a82" stroke-width="1.0" stroke-dasharray="4 3"/>
+<text x="113.00" y="362.00" font-family="monospace" font-size="8" fill="#6b7a82" text-anchor="start" font-weight="normal">U3-U4-TIMING</text>
+<rect x="340.00" y="350.00" width="220.00" height="120.00" fill="none" stroke="#6b7a82" stroke-width="1.0" stroke-dasharray="4 3"/>
+<text x="343.00" y="362.00" font-family="monospace" font-size="8" fill="#6b7a82" text-anchor="start" font-weight="normal">U2-SOM</text>
+<rect x="590.00" y="280.00" width="160.00" height="130.00" fill="none" stroke="#6b7a82" stroke-width="1.0" stroke-dasharray="4 3"/>
+<text x="593.00" y="292.00" font-family="monospace" font-size="8" fill="#6b7a82" text-anchor="start" font-weight="normal">U6-WIFI</text>
+<rect x="110.00" y="480.00" width="170.00" height="35.00" fill="none" stroke="#6b7a82" stroke-width="1.0" stroke-dasharray="4 3"/>
+<text x="113.00" y="492.00" font-family="monospace" font-size="8" fill="#6b7a82" text-anchor="start" font-weight="normal">PWR1</text>
+<rect x="380.00" y="480.00" width="250.00" height="35.00" fill="none" stroke="#6b7a82" stroke-width="1.0" stroke-dasharray="4 3"/>
+<text x="383.00" y="492.00" font-family="monospace" font-size="8" fill="#6b7a82" text-anchor="start" font-weight="normal">U5-RJ45</text>
+<line x1="80.00" y1="530.00" x2="80.00" y2="550.00" stroke="#6b7a82" stroke-width="0.8"/>
+<line x1="780.00" y1="530.00" x2="780.00" y2="550.00" stroke="#6b7a82" stroke-width="0.8"/>
+<line x1="80.00" y1="546.00" x2="780.00" y2="546.00" stroke="#1a6b7a" stroke-width="1.0"/>
+<path d="M 80.00 546.00 l 6.00 -2.6 l 0 5.2 z" fill="#1a6b7a"/>
+<path d="M 780.00 546.00 l -6.00 -2.6 l 0 5.2 z" fill="#1a6b7a"/>
+<text x="430.00" y="542.00" font-family="monospace" font-size="11" fill="#1a6b7a" text-anchor="middle" font-weight="normal">140</text>
+<line x1="780.00" y1="80.00" x2="800.00" y2="80.00" stroke="#6b7a82" stroke-width="0.8"/>
+<line x1="780.00" y1="530.00" x2="800.00" y2="530.00" stroke="#6b7a82" stroke-width="0.8"/>
+<line x1="796.00" y1="80.00" x2="796.00" y2="530.00" stroke="#1a6b7a" stroke-width="1.0"/>
+<path d="M 796.00 80.00 l -2.6 6.00 l 5.2 0 z" fill="#1a6b7a"/>
+<path d="M 796.00 530.00 l -2.6 -6.00 l 5.2 0 z" fill="#1a6b7a"/>
+<text x="806.00" y="305.00" font-family="monospace" font-size="11" fill="#1a6b7a" text-anchor="middle" transform="rotate(-90 806.00 305.00)">90</text>
+<line x1="120.00" y1="120.00" x2="20.00" y2="68.00" stroke="#6b7a82" stroke-width="0.8"/>
+<text x="23.00" y="65.00" font-family="monospace" font-size="10" fill="#1a6b7a" text-anchor="start" font-weight="normal">4x 3.2 DIA</text>
+<text x="28" y="490" font-family="monospace" font-size="11" font-weight="bold" fill="#101418">NOTES</text>
+<text x="28" y="506" font-family="monospace" font-size="10" fill="#101418">1. DIMENSIONS IN MILLIMETRES. THIRD-ANGLE PROJECTION.</text>
+<text x="28" y="522" font-family="monospace" font-size="10" fill="#101418">2. GENERAL TOLERANCE +/-0.3 mm UNLESS OTHERWISE STATED.</text>
+<text x="28" y="538" font-family="monospace" font-size="10" fill="#101418">3. BREAK SHARP EDGES 0.3 mm MAX.</text>
+<text x="28" y="554" font-family="monospace" font-size="10" fill="#101418">4. TOLERANCES ON MATING FEATURES TO BE AGREED WITH FABRICATOR.</text>
+<text x="28" y="570" font-family="monospace" font-size="10" fill="#101418">5. PROFILE AND MOUNTING ONLY - FOOTPRINTS AND ROUTING NOT INCLUDED.</text>
+<text x="28" y="586" font-family="monospace" font-size="10" fill="#101418">6. 4-LAYER MINIMUM; STACKUP AND IMPEDANCE TARGETS PER PCB ENGINEER.</text>
+<text x="28" y="602" font-family="monospace" font-size="10" fill="#101418">7. SEE hardware/pcb/netlist.csv AND placement.md FOR THE ELECTRICAL DESIGN.</text>
+<rect x="650" y="590" width="340" height="100" fill="none" stroke="#101418" stroke-width="1.6"/>
+<line x1="650" y1="624" x2="990" y2="624" stroke="#101418" stroke-width="1"/>
+<line x1="650" y1="656" x2="990" y2="656" stroke="#101418" stroke-width="1"/>
+<text x="660" y="612" font-family="monospace" font-size="13" fill="#101418" font-weight="bold">PENUMBRA  /  NODE CARRIER BOARD - PROFILE</text>
+<text x="660" y="644" font-family="monospace" font-size="10" fill="#101418" font-weight="normal">PART PNMB-PCB-001    MATERIAL FR4 / RF LAMINATE TBD</text>
+<text x="660" y="676" font-family="monospace" font-size="10" fill="#101418" font-weight="normal">FINISH ENIG    UNITS mm    PROJ 3rd ANGLE</text>
+</svg>

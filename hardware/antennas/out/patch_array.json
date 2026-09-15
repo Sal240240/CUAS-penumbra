@@ -1,0 +1,15 @@
+{
+  "freq_hz": 5500000000.0,
+  "er": 4.3,
+  "h_mm": 1.6,
+  "width_mm": 16.741913001186127,
+  "length_mm": 12.570247845133856,
+  "eff_dielectric_const": 3.7761231599448153,
+  "free_space_wavelength_mm": 54.50771963636364,
+  "rows": 2,
+  "cols": 2,
+  "element_spacing_mm": 14.025066930863165,
+  "board_w_mm": 67.50889293323542,
+  "board_h_mm": 59.165562621130874,
+  "design_reference": "Balanis, Antenna Theory: Analysis and Design, 4th ed., sec. 14.2"
+}

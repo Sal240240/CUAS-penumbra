@@ -1,0 +1,12 @@
+{
+  "band": "uhf",
+  "f_low_hz": 470000000.0,
+  "f_high_hz": 608000000.0,
+  "tau": 0.88,
+  "sigma": 0.05,
+  "apex_half_angle_deg": 30.96375653207352,
+  "n_elements": 4,
+  "boom_length_mm": 84.65628728885108,
+  "estimated_gain_dbi": 7.8,
+  "design_reference": "Carrel 1961 (IRE Int'l Conv. Record); Balanis, Antenna Theory 4th ed. sec. 11.6"
+}

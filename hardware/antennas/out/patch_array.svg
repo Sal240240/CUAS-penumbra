@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 68 59" font-family="monospace">
+<rect width="68" height="59" fill="#0a0d10"/>
+<rect x="2" y="2" width="64" height="55" fill="none" stroke="#647882" stroke-dasharray="4 3"/>
+<rect x="10.0" y="10.0" width="16.7" height="12.6" fill="#5eead4" opacity="0.85"/>
+<rect x="40.8" y="10.0" width="16.7" height="12.6" fill="#5eead4" opacity="0.85"/>
+<rect x="10.0" y="36.6" width="16.7" height="12.6" fill="#5eead4" opacity="0.85"/>
+<rect x="40.8" y="36.6" width="16.7" height="12.6" fill="#5eead4" opacity="0.85"/>
+<text x="10" y="53" fill="#647882" font-size="9">2x2 array, 5.50 GHz, er=4.3, h=1.6 mm</text>
+</svg>
