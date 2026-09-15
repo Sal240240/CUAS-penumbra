@@ -39,3 +39,5 @@ epoch 07 loss 0.559 (occ 0.376 cls 0.422 unc -2.393) | val F1 0.807 P 0.967 R 0.
 epoch 08 loss 0.288 (occ 0.189 cls 0.378 unc -2.777)  1080s
   ep 09 step 8/32  2.92s/step  eta_epoch 1.2 min
   ep 09 step 16/32  1045.40s/step  eta_epoch 278.8 min
+  ep 09 step 24/32  698.31s/step  eta_epoch 93.1 min
+epoch 09 loss 0.122 (occ 0.084 cls 0.342 unc -3.039)  17868s

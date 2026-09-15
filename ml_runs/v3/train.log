@@ -1,0 +1,4 @@
+data: train (240, 42, 48, 96) (93 MB) val (96, 42, 48, 96) pairs 42 (62s)
+resumed weights from ml_runs/v2/penumbra_net_best.pt
+model params: 0.51 M
+steps/epoch: 20 (batch 8, 160 windows)
