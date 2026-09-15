@@ -1,0 +1,41 @@
+data: train (384, 42, 48, 96) (149 MB) val (144, 42, 48, 96) pairs 42 (167s)
+model params: 0.51 M
+steps/epoch: 32 (batch 8, 256 windows)
+  ep 00 step 8/32  3.02s/step  eta_epoch 1.2 min
+  ep 00 step 16/32  3.00s/step  eta_epoch 0.8 min
+  ep 00 step 24/32  2.98s/step  eta_epoch 0.4 min
+epoch 00 loss 4.518 (occ 3.203 cls 1.329 unc -0.140)  266s
+  ep 01 step 8/32  2.88s/step  eta_epoch 1.2 min
+  ep 01 step 16/32  2.87s/step  eta_epoch 0.8 min
+  ep 01 step 24/32  2.90s/step  eta_epoch 0.4 min
+epoch 01 loss 3.820 (occ 2.799 cls 1.055 unc -0.340)  359s
+  ep 02 step 8/32  3.02s/step  eta_epoch 1.2 min
+  ep 02 step 16/32  3.02s/step  eta_epoch 0.8 min
+  ep 02 step 24/32  3.01s/step  eta_epoch 0.4 min
+epoch 02 loss 3.914 (occ 3.057 cls 0.917 unc -0.599)  457s
+  ep 03 step 8/32  3.02s/step  eta_epoch 1.2 min
+  ep 03 step 16/32  2.91s/step  eta_epoch 0.8 min
+  ep 03 step 24/32  2.96s/step  eta_epoch 0.4 min
+epoch 03 loss 3.704 (occ 2.932 cls 0.867 unc -0.955) | val F1 0.000 P 0.000 R 0.000  <- best  581s
+  ep 04 step 8/32  3.05s/step  eta_epoch 1.2 min
+  ep 04 step 16/32  2.99s/step  eta_epoch 0.8 min
+  ep 04 step 24/32  2.98s/step  eta_epoch 0.4 min
+epoch 04 loss 3.494 (occ 2.820 cls 0.805 unc -1.312)  677s
+  ep 05 step 8/32  2.96s/step  eta_epoch 1.2 min
+  ep 05 step 16/32  2.96s/step  eta_epoch 0.8 min
+  ep 05 step 24/32  2.94s/step  eta_epoch 0.4 min
+epoch 05 loss 1.601 (occ 1.171 cls 0.585 unc -1.552)  771s
+  ep 06 step 8/32  3.08s/step  eta_epoch 1.2 min
+  ep 06 step 16/32  3.03s/step  eta_epoch 0.8 min
+  ep 06 step 24/32  2.99s/step  eta_epoch 0.4 min
+epoch 06 loss 0.803 (occ 0.532 cls 0.473 unc -2.018)  866s
+  ep 07 step 8/32  3.01s/step  eta_epoch 1.2 min
+  ep 07 step 16/32  2.97s/step  eta_epoch 0.8 min
+  ep 07 step 24/32  2.96s/step  eta_epoch 0.4 min
+epoch 07 loss 0.559 (occ 0.376 cls 0.422 unc -2.393) | val F1 0.807 P 0.967 R 0.692  <- best  986s
+  ep 08 step 8/32  2.89s/step  eta_epoch 1.2 min
+  ep 08 step 16/32  2.91s/step  eta_epoch 0.8 min
+  ep 08 step 24/32  2.93s/step  eta_epoch 0.4 min
+epoch 08 loss 0.288 (occ 0.189 cls 0.378 unc -2.777)  1080s
+  ep 09 step 8/32  2.92s/step  eta_epoch 1.2 min
+  ep 09 step 16/32  1045.40s/step  eta_epoch 278.8 min
